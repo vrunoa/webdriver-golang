@@ -1,5 +1,5 @@
 # webdriver-golang
-A simple example running webdriver tests using golang client
+A simple example running webdriver tests using golang client against Sauce Labs cloud
 
 ## Requirements
 * golang
