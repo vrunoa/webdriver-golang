@@ -9,4 +9,3 @@ services:
       - SAUCE_REGION=${SAUCE_REGION}
       - SAUCE_USERNAME=${SAUCE_USERNAME}
       - SAUCE_ACCESS_KEY=${SAUCE_ACCESS_KEY}
-    container_name: golang_webdriver
