@@ -38,7 +38,6 @@ func main() {
 	selenium.SetDebug(true)
 	caps := selenium.Capabilities{"browserName": "chrome", "platformName": "windows 10"}
 	hub := fmt.Sprintf("%s://%s:%s@%s:%d/wd/hub", protocol, username, accessKey, ondemand, port)
-	fmt.Println(hub)
 	wd, err := selenium.NewRemote(caps, hub)
 	if err != nil {
 		panic(err)
